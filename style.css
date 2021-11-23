@@ -3,17 +3,18 @@ body {
 
 	
 }
-#banner {
+.cabecario {
 
 	width: 100%;
 }
 .principal {
 
 	background: #CCCCCC;
+	padding: 30px;
 }
 
 
-h1 {
+.titulo-centralizado {
 
 	text-align: center;
 }
@@ -30,7 +31,7 @@ p {
 }
 em strong {
 
-	color: blue;
+	color: #049DD9;
 
 }
 .itens{
@@ -39,19 +40,24 @@ em strong {
 }
 .especialidades {
 
-	background: #FFFFFF;
+	padding: 20px;
+
+
 }
 
-h2 {
-
-	text-align: center;
-}
 ul {
 
-	
+	display: inline-block;
+	vertical-align: top;
+	width: 10%;
+	margin-right: 30%;
 }
 
 .imagemespecialidades {
 
-	width: 60%;
+	width: 40%;
+}
+.logo {
+
+	width: 10%;
 }
