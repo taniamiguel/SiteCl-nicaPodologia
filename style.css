@@ -1,15 +1,40 @@
 
-body {
+header {
 
-	
+	background: #bbbbbb;
+	padding: 20px 0;
 }
-.cabecario {
+.caixa {
+	position: relative;
+	width:  940px;
+	margin: 0 auto;
 
-	width: 100%;
 }
+
+nav{
+
+	position:  absolute;
+	top: 110px;
+	right: 0;
+}
+nav li {
+
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a {
+
+	text-transform: uppercase;
+	color = #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+}
+
 .principal {
 
-	background: #CCCCCC;
+	
 	padding: 30px;
 }
 
@@ -17,11 +42,14 @@ body {
 .titulo-centralizado {
 
 	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
 }
 
 
 p {
 	text-align: center;
+	padding: 30px;
 
 }
 
@@ -45,7 +73,7 @@ em strong {
 
 }
 
-ul {
+.espul {
 
 	display: inline-block;
 	vertical-align: top;
@@ -56,6 +84,7 @@ ul {
 .imagemespecialidades {
 
 	width: 40%;
+	padding: 30px;
 }
 .logo {
 
