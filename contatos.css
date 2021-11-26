@@ -36,56 +36,43 @@ nav a:hover{
 
 }
 
-.especialidades{
+main {
 
 	width: 940px;
 	margin: 0 auto;
-	padding: 50px 0;
-}
-.especialidades li {
-
-	display: inline-block;
-	text-align: center;
-	width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
-	box-sizing: border-box;
-	border:  2px solid #000000;
-	border-radius: 10px;
-
-}
-.especialidades li:hover {
-	border-color: #C78C19;	
-
-
-}
-.especialidades li:active {
-
-	border-color: #088C19;
-}
-.especialidades li:hover h2 {
-
-	font-size: 32px;
 }
 
-.especialidades h2 {
+form {
 
-	font-size: 30px;
-	font-weight: bold;
-
-}
-.especialidade-descricao{
-
-	font-size: 15px;
+	margin:  40px 0;
 }
 
-.especialidade-agendamento{
+form laber {
 
-	font-size: 18px;
-	font-weight: bold;
-	margin-top:  10px;
+	display: block;
+	font-size: 20px;
+	margin: 10px;
 }
+
+form input {
+
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
 footer {
 
 	text-align: center;

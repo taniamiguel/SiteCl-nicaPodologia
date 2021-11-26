@@ -4,9 +4,9 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Especialidades - Clínica PodoSaúde Podologia</title>
+		<title>Contatos - Clínica PodoSaúde Podologia</title>
 		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="especialidades.css">
+		<link rel="stylesheet" href="contatos.css">
 	</head>
 	<body>
 		<header>
@@ -28,26 +28,23 @@
 		</header>
 
 		<main>
-			<ul class="especialidades">
-				<li>
-					<h2>Micose</h2>
-					<img src="micose.jpg">
-					<p class="especialidade-descricao"> São Fungos que se alimentam da queratina da unha</p>
-					<p class="especialidade-agendamento">Agende Seu Horário</p>
-				</li>
-				<li>
-					<h2>Unhas Inflamadas</h2>
-					<img src="unhainflamada.jpg">
-					<p class="especialidade-descricao">Pelo mal hábito de cortar os cantos das unhas</p>
-					<p class="especialidade-agendamento">Agende Seu Horário</p>
-				</li>
-				<li>
-					<h2>Calos</h2>
-					<img src="calos.jpg">
-					<p class="especialidade-descricao"> Camada grossa e endurecida de pele causada por pressão</p>
-					<p class="especialidade-agendamento">Agende Seu Horário</p>
-				</li>
-			</ul>
+			<form>
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesobrenome">
+
+				<label for="email">Email</label>
+				<input type="text" id="email">
+
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone">
+
+				<label for ="mensagem">Mensagem</label>
+
+				<textarea cols="50" rows="5" id="mensagem"></textarea>
+
+				<input type="submit" value="Enviar Formulário">
+
+			</form>
 		</main>
 		<footer>
 			<div>
@@ -58,36 +55,7 @@
 			<div>
 				<p class="rodape-descricao">Rua Espanha 639 - Centro - Cambé-Pr</p>
 				<p class="rodape-descricao">Tel: (43) 3251-7511 / (43) 99927-4561</p>
-
-
 			</div>
-
-
-
-			
-
 		</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	</body>	
 </html>
