@@ -1,4 +1,3 @@
-
 header {
 
 	background: #049DD9;
@@ -34,66 +33,84 @@ nav a {
 nav a:hover{
 	color: #FFFFFF;
 	text-decoration: underline;
-}
-
-.principal {
-
-	
-	padding: 30px;
-}
-
-
-.titulo-centralizado {
-
-	text-align: center;
-	font-weight: bold;
-	font-size: 22px;
-}
-
-
-p {
-	text-align: center;
-	padding: 30px;
 
 }
-
-#missao {
-
-	font-size: 20px;
-}
-em strong {
-
-	color: #049DD9;
-
-}
-.itens{
-
-	font-style: italic;
-}
-.especialidades {
-
-	padding: 20px;
-
-
-}
-
-.espul {
+.banner {
 
 	display: inline-block;
-	vertical-align: top;
-	width: 10%;
-	margin-right: 30%;
+	padding: 20px 0;
+	width:  1270px;
+	margin: 20 auto;
+
 }
 
-.imagemespecialidades {
+.placas {
 
-	width: 40%;
-	padding: 30px;
-}
-.logo {
+	display: inline-block;
+	position: absolute;
+	top: 150px;
 
-	width: 10%;
+	padding: 20px 0;
+	width:  1270px;
+	margin: 20 auto;
 }
+.titulo-one {
+
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	top: 480px;
+	left: 250px;
+	font-size: 22px
+
+}
+
+.descricao-one {
+
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	top: 520px;
+	left: 285px;
+	font-weight: bold;
+}
+.titulo-two {
+
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	top: 480px;
+	left: 550px;
+	font-size: 22px
+}
+.descricao-two{
+
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	top: 520px;
+	left: 600px;
+	font-weight: bold;
+}
+.titulo-three {
+
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	top: 480px;
+	left: 880px;
+	font-size: 22px
+}
+.descricao-three {
+
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	top: 520px;
+	left: 910px;
+	font-weight: bold;
+}
+
 footer {
 
 	text-align: center;
@@ -110,8 +127,7 @@ footer {
 .redesociais{
 
 	display: inline-block;
-	padding: 0px 0;
-	
+	vertical-align: baseline;
 
 }
 .face{
@@ -121,13 +137,12 @@ footer {
 	bottom: -6px;
 	width: 2.5%;
     
+
 }
 .insta {
 	position:  relative;
 
 	bottom: -1px;
     width: 1.7%;
+    
 }
-
-
-

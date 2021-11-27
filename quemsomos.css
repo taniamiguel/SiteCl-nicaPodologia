@@ -1,0 +1,122 @@
+
+header {
+
+	background: #049DD9;
+	padding: 20px 0;
+}
+.caixa {
+	position: relative;
+	width:  940px;
+	margin: 0 auto;
+
+}
+
+nav{
+
+	position:  absolute;
+	top: 110px;
+	right: 0;
+}
+nav li {
+
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a {
+
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+}
+nav a:hover{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.principal {
+
+	display: inline-block;
+
+	position: relative;
+	bottom: 0px;
+	left: 620px;
+	width: 40%;
+	padding: 40px;
+}
+
+
+.titulo-centralizado {
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+}
+.local {
+
+	position: absolute;
+	top: 450px;
+	left: 200px;
+	display: inline-block;
+	width: 30%;
+}
+
+p {
+	text-align: center;
+	padding: 30px;
+
+}
+
+#missao {
+
+	font-size: 20px;
+}
+em strong {
+
+	color: #049DD9;
+
+}
+
+
+.logo {
+
+	width: 10%;
+}
+footer {
+
+	text-align: center;
+	background: #049DD9;
+	padding: 20px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.rodape-descricao {
+
+	display: inline-block;
+	padding: 10px 8px;
+}
+.redesociais{
+
+	display: inline-block;
+	padding: 0px 0;
+	
+
+}
+.face{
+	
+	position:  relative;
+
+	bottom: -6px;
+	width: 2.5%;
+    
+}
+.insta {
+	position:  relative;
+
+	bottom: -1px;
+    width: 1.7%;
+}
+
+
+
